@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { toast } from "@/components/ui/use-toast";
 import { getCoordinates } from '../utils/nominatim';
-import { orderCompaniesByDistance } from '../utils/distance';
+import { orderCompaniesByDistance, calculateDistance } from '../utils/distance';
 import { saveResults } from '../utils/storage';
 import { sendResultsByEmail } from '../utils/email';
 
